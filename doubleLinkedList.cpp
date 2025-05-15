@@ -1,10 +1,8 @@
 
 
-        void addNode()
-        {
-            int nim;
-            string nm;
-            cout << "n\Enter the roll number of the student";
-            cin >> nim;
+            //step 1: ALLcate memory for new node
+            Node *newNode = new Node();
+
+
         }
 }
