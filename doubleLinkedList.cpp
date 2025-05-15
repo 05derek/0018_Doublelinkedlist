@@ -1,12 +1,8 @@
 
-
-    // step 2: if node is at the beginning
-    if (current == START)
+    else
     {
-        START = current->next; //step 2a
-        if (START != NULL)
-            START->prev = NULL; // step 2b
+        //step 3:link previous node to next of current
+        current->prev->next = current->next;
     }
-
 }
 }
