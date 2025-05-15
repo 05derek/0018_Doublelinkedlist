@@ -1,12 +1,10 @@
 
 
-class DoubleLinkedList
-{
-    private:
-        Node*START;
-    public:
-        DoubleLinkedList()
+        void addNode()
         {
-            START = NULL;
+            int nim;
+            string nm;
+            cout << "n\Enter the roll number of the student";
+            cin >> nim;
         }
 }
