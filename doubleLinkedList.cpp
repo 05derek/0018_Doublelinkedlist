@@ -1,7 +1,7 @@
 
 
-            //step 1: ALLcate memory for new node
-            Node *newNode = new Node();
+            //step 2: Assign value to the data field
+            newNode->noMhs = nim;
 
 
         }
