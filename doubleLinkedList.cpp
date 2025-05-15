@@ -1,13 +1,11 @@
 
 
-    //step 1:Traverse the list to find the node
-    while (current != NULL && current->noMhs != rollNo)
-        current = current->next;
-
-    if(current == NULL)
+    // step 2: if node is at the beginning
+    if (current == START)
     {
-        cout << "Record not found" << endl;
-        return;
+        START = current->next; //step 2a
+        if (START != NULL)
+            START->prev = NULL; // step 2b
     }
 
 }
