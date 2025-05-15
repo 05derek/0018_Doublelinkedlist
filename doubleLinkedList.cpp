@@ -1,5 +1,8 @@
 
-            newNode->prev = current; //step 9b
+
+            //insert last node
+            if(current->next !=NULL)
+                current->next->prev = newNode; //step 9c
 
         }
 }
