@@ -1,9 +1,12 @@
 
 
-class Node
+class DoubleLinkedList
 {
+    private:
+        Node*START;
     public:
-        int noMhs;
-        Node*next;
-        Node*prev;
-};
+        DoubleLinkedList()
+        {
+            START = NULL;
+        }
+}
